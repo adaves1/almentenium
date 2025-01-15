@@ -4,7 +4,10 @@ object WINDOW {
   "width": Display.Screen.getlength(),
   "height": Display.Screen.getbreadth(),
   "openState": "MAX",
-  $"PATH": "../../../",
-  "buttonClose": $PATH."assets/base/layout/buttonClose.png" 
+  "closeButton": Window.Assets.closeButton(),
+  "maxButton": Window.Assets.maxButton(),
+  "minButton": Window.Assets.minButton(), 
+  "unpackButton": Window.Assets.unpackButton()
 }
 
+// rest attributes in attrib.css
