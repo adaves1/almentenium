@@ -6,7 +6,6 @@
 *       @adaves1
 
 branch: master        adaves1
-branch: 1.0.2501.17   adaves1
 
 # Order is important; the last matching pattern takes the most
 # precedence. When someone opens a PR that only modifies
