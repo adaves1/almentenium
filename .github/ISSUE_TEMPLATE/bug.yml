@@ -17,7 +17,7 @@ body:
   - type: input
     id: project
     attributes:
-      label: Project Version
+      label: Project-Version
       description: Which project versions are affected?
       placeholder: "1.0, 2.2, 3.5.1", "9.7.2509.13"
     validations:
