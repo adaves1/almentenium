@@ -1,4 +1,4 @@
-*Have you read the [Contributing Guidelines](https://github.com/adaves1/.github/blob/master/CONTRIBUTING.md)?*
+*Have you read the [Contributing Guidelines](https://github.com/adaves1/almentenium/blob/master/CONTRIBUTING.md)?*
 
 Issue #
 
