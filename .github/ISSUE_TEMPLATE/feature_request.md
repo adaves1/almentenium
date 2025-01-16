@@ -1,20 +1,49 @@
----
+
 name: Feature request
-about: Suggest an idea for this project
-title: "[FEATURE]"
-labels: enhancement, good first issue
-assignees: adaves1
-
----
-
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
-
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: ["feature request", "enhancement", "feature"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to complete this form!
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Guidelines
+      description: By submitting this issue, you agree to follow our [Contributing Guidelines](https://github.com/adaves1/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: I agree to follow this project's Contributing Guidelines.
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clearly and concisely describe what you would like to change, add, or implement.
+      placeholder: Tell us your idea.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Is your feature request related to a problem?
+      placeholder: What problem will this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How should this be solved?
+      placeholder: How do you think this should be implemented?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Are there other possible approaches?
+      placeholder: Can you think of any other options?
+    validations:
+      required: true
