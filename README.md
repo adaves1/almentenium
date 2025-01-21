@@ -1,7 +1,6 @@
 <p align="center">
   <img src="logo.png" alt="Logo">
 </p>
-
 <h1 align='center'>Almentenium</h1>
 
 
